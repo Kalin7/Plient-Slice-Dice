@@ -1,0 +1,53 @@
+footer {
+    background-color: #2a2a2a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 50px 0 50px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #646464;
+}
+
+.site-copyright,
+.footer-navbar,
+.site-contacts {
+   flex: 0 0 23%;
+   margin: 0 auto;
+}
+
+.copyright-author span {
+    font-weight: 600;
+}
+
+.footer-navbar {
+    display: flex;
+}
+
+.navbar-list--left, 
+.navbar-list--right {
+    list-style: none;
+}
+
+.navbar-list--left li, 
+.navbar-list--right li {
+    padding-top: 5px;
+}
+
+footer a {
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #646464; 
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+.vertical-border {
+    height: 20vh;
+    width: 1px;
+    background-color: #646464;
+    opacity: 0.3;
+}

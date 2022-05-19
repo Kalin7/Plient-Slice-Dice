@@ -1,0 +1,202 @@
+main {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-content--container {
+    margin-top: 100px;
+    padding: 0px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    height: 200px;
+    flex: 0 0 40%;
+    border-right: 2px dotted #d6d6d6;
+    max-width: 40%;
+    overflow: hidden;
+}
+
+.about-text h3 {
+    
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.about-text span {
+    font-weight: 300;
+}
+
+.about-text--content {
+    margin-right: 100px;
+    font-size: 20px;
+    color: #999;
+}
+
+.about-employee {
+    flex: 0 0 55%;
+}
+
+.employee-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.employee-list--item {
+    flex: 0 0 30%;
+    line-height: 0.5;
+}
+
+.employee-list--item img{
+    border: 5px solid #e5e5e5;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.employee-name,
+.employee-position,
+.employee-links {
+    width: 100%;
+    text-align: center;
+}
+
+.employee-name {
+    color: #303030;
+}
+
+.employee-position {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8e8e8e;
+}
+
+.employee-links i { 
+    margin-left: 20px;
+    color: #bfbfbf;
+    font-size: smaller;
+}
+
+.employee-testamony {
+    width: 100%;
+    height: 200px;
+    background: repeating-linear-gradient(
+                    -55deg,
+                    #000,
+                    #222 5px,
+                    #333 5px,
+                    #333 7px
+                );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.employee-testamony--container {
+    flex: 0 0 100%;
+}
+
+
+.dot {
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #8e8e8e;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+#employee-1 #radio-1,
+#employee-2 #radio-2,
+#employee-3 #radio-3 {
+
+    background-color: #808080;
+}
+
+.name {
+    padding-right: 20px;
+    font-weight: 600;
+    border-right: 1px solid #8e8e8e;
+}
+
+.testamony-context,
+.testamony-author {
+    width: 70%;
+    margin: 30px auto;
+    color: #fff;
+    text-align-last: center;
+    font-size: 20px;
+}
+
+.testamony-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-list {
+    width: 70%;
+    padding: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-list--item  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-list--item .fa-solid {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.fa-bolt-lightning {
+    background-color: #f1c40f;
+}
+
+.fa-cloud {
+    background-color: #0faff1;
+}
+
+.fa-arrows-up-down-left-right {
+    background-color: #95a5a6;
+}
+
+.fa-comments {
+    background-color: #f1540f;
+}
+
+.item-title {
+    color: #000;
+    font-weight: 600;
+}
+
+.item-description { 
+    width: 80%;
+    text-align: center;
+    text-align-last: center;
+    color: #8e8e8e;
+    margin-top: -10px;
+}

@@ -1,0 +1,226 @@
+@media screen and (max-width: 430px) {
+    
+    header, 
+    .container {
+        height: 50vh;
+    }
+
+    #bars.fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .bars-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        margin: 10px 20px;
+    }
+    
+    .bars-list--item {
+        margin-left: -40px;
+        display: flex;
+        align-items: stretch;
+        padding: 5px;
+        border: 1px solid  white;
+        border-radius: 3px;
+        opacity: 0.5;
+    }
+
+    a {
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .header-greeting {
+        width: 65%;
+        height: 150px;
+        margin: 20px auto;
+        color: #fff;
+        line-height:0.75;
+    }
+    
+    h1, h2 {
+        padding: 5px;
+        margin: 0px auto;
+        width: 95%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .header-auth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        background: none;
+        border-radius: 3px;
+
+    }
+    
+    .auth-login,
+    .auth-register {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 300;
+        border-radius: 3px;
+    }
+
+    .auth-login {
+        background-color: #21424a;
+    }
+    .auth-register {
+        background-color: #2fac6c;
+        
+    }
+
+    .about-content--container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2px;
+    }
+
+    .about-text h3 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+    }
+    
+    .about-text {
+        max-width: 95%;
+        border: none;
+    }
+
+    .about-text--content {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .about-employee {
+        margin-left: -30px;
+        width: 95%;
+    }
+
+    .employee-list {
+        justify-content: space-between;
+    }
+    .employee-list--item {
+        flex: 0 0 30%;
+        line-height: 0.5;
+    }
+    
+    .employee-list--item img{
+        border: 5px solid #e5e5e5;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .employee-links i{
+        margin-left: 0px;
+    }
+
+    .employee-testamony {
+        height: 150px;
+    }
+
+    .testamony-context {
+        width: 100%;
+    }
+
+    .testamony-context,
+    .testamony-author {
+        margin: 0px auto;
+        font-size: 14px;
+        overflow-y: scroll;
+    }
+
+    .services-list {
+        width: 100%;
+        padding: 2px;
+    }
+    
+    .services-list--item .fa-solid {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .item-title {
+        color: #000;
+        font-weight: none;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .item-description { 
+        width: 100%;
+        font-size: 12px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+    
+    .site-copyright,
+    .footer-navbar,
+    .site-contacts {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .copyright-author span {
+        font-weight: 400;
+    }
+   
+    .footer-navbar {
+       flex-direction: column;
+       margin: 0 auto;
+    }
+
+    .navbar-list--left span,
+    .navbar-list--right span {
+        display: none;
+    }
+    
+    footer a {
+        margin-left: -10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #646464; 
+    }
+    
+    footer i {
+        margin-right: 10px;
+    }
+    
+    .vertical-border {
+        display: none;
+    } 
+}
