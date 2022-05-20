@@ -224,3 +224,9 @@
         display: none;
     } 
 }
+
+@media screen and (orientation: landscape) {
+    .header-greeting {
+        display: none;
+    }
+}
