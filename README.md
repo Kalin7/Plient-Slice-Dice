@@ -3,6 +3,8 @@
 
 All files are in master branch
 
+Project has issues with Internet Explorer
+
 Load files in Visual Studio Code editor
 
 Open index.html file in Live Server mode on port 5500
