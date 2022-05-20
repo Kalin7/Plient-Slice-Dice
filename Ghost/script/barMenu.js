@@ -33,8 +33,6 @@ function createElementCopy(element) {
         listItem.className = "bars-list--item";
         
         let aItem = document.createElement("a");
-        aItem.textContent = content;
-
         aItem.textContent = e.firstChild.textContent;
 
         listItem.appendChild(aItem);
