@@ -79,8 +79,11 @@ a {
 }
 
 .header-greeting {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 8px;
-    margin: 16% auto;
     color: #fff;
     line-height:0.3;
     animation-name: greeting;
