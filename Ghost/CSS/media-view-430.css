@@ -30,7 +30,7 @@
     .bars-list--item {
         margin-left: -40px;
         display: flex;
-        align-items: stretch;
+        align-items: center;
         padding: 5px;
         border: 1px solid  white;
         border-radius: 3px;
@@ -160,6 +160,14 @@
         overflow-y: scroll;
     }
 
+
+    .dot {
+        -ms-width: 7px;
+        -ms-height: 7px;
+        width: 7px;
+        height: 7px;
+    }
+
     .services-list {
         width: 100%;
         padding: 2px;
@@ -223,4 +231,10 @@
     .vertical-border {
         display: none;
     } 
+}
+
+@media screen and (orientation: landscape) {
+    .header-greeting {
+        display: none;
+    }
 }
